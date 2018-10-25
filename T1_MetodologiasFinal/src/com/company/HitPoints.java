@@ -13,9 +13,6 @@ package com.company;
  * @author Stepp
  */
 public class HitPoints {
-    /** Unused. It stores the damage made to an unit.*/
-    private double damage;
-
     /** The hp of an unit*/
     private double hp;
 
@@ -24,7 +21,7 @@ public class HitPoints {
 
     /**
      * Instantiates a new Hit Points class.
-     * @param hp
+     * @param hp the life of the entity.
      */
     public HitPoints(double hp){
         this.hp = hp;
@@ -64,7 +61,6 @@ public class HitPoints {
     /**
      * This method is used to set
      * the hp cap of an unit
-     * @return the corresponding hp cap
      */
     public void setHpCapUnit(){
         this.hpCap = hp * 2.0;
@@ -74,7 +70,6 @@ public class HitPoints {
     /**
      * This method is used to set
      * the hp cap of a building
-     * @return the corresponding hp cap
      */
     public void setHpCapBuilding(){
         this.hpCap = hp * 2.0;
@@ -84,7 +79,7 @@ public class HitPoints {
     /**
      * This method is used to reduce the
      * current hp of an unit
-     * @param damage
+     * @param damage damage dealt to the entity
      */
     public void substractHP(double damage){
         this.hp -= damage;
@@ -114,7 +109,7 @@ public class HitPoints {
     /**
      * This method is used to add more hp, a.k.a heal,
      * the current hp of an unit
-     * @param heal
+     * @param heal amount of hp to be added
      */
     public void addtHP(double heal){
         this.hp += heal;
@@ -128,7 +123,7 @@ public class HitPoints {
      * This method checks if the unit is dead.
      * Therefore, it checks if the hp is inferior
      * or equal to zero.
-     * @return
+     * @return true if the hp is inferior or equal to zero
      */
     public boolean isDead() {
         return hp <= 0;

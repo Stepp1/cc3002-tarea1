@@ -86,7 +86,7 @@ public class Villager extends AbstractUnit{
     /**
      * This method is used when a
      * monk unit heals this unit.
-     * @param monk
+     * @param monk the healing unit
      */
     @Override
     public void healedByMonk(Monk monk) {

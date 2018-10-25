@@ -36,7 +36,7 @@ public class Infantry extends AbstractUnit{
     /**
      * This method is used when an
      * infantry unit attacks this unit.
-     * @param infantry
+     * @param infantry the attacking unit
      */
     @Override
     public void attackedByInfantry(Infantry infantry) {

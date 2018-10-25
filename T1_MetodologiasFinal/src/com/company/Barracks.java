@@ -11,7 +11,6 @@ public class Barracks extends AbstractBuilding{
      * Instantiates a new Barracks building
      * @param life the hp of this unit
      */
-
     public Barracks(HitPoints life){
         super(life);
     }
