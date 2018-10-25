@@ -22,7 +22,8 @@ public class Archer extends AbstractUnit{
      *  another unit or building
      * @param toAttack the unit or building to attack
      */
-    public void attack(AttackableUnits toAttack){
+    @Override
+    public void attack(Attackable toAttack){
         if(!this.getUnitHp().isDead()) {
             toAttack.attackedByArcher(this);
         }
@@ -30,8 +31,8 @@ public class Archer extends AbstractUnit{
 
     /**
      * This method is used when an
-     * infantry unit attack this unit.
-     * @param infantry
+     * infantry unit attacks this unit.
+     * @param infantry the attacking unit
      */
     @Override
     public void attackedByInfantry(Infantry infantry) {
@@ -41,7 +42,7 @@ public class Archer extends AbstractUnit{
     /**
      * This method is used when a
      * cavalry attacks this unit.
-     * @param cavalry
+     * @param cavalry the attacking unit
      */
     @Override
     public void attackedByCavalry(Cavalry cavalry) {
@@ -50,8 +51,8 @@ public class Archer extends AbstractUnit{
 
     /**
      * This method is used when an
-     * archer unit attack this unit.
-     * @param archer
+     * archer unit attacks this unit.
+     * @param archer the attacking unit
      */
     @Override
     public void attackedByArcher(Archer archer) {
@@ -60,8 +61,8 @@ public class Archer extends AbstractUnit{
 
     /**
      * This method is used when a
-     * siege unit attack this unit.
-     * @param siege
+     * siege unit attacks this unit.
+     * @param siege the attacking unit
      */
     @Override
     public void attackedBySiege(Siege siege) {
@@ -71,20 +72,33 @@ public class Archer extends AbstractUnit{
     /**
      * This method is used when a
      * villager unit attack this unit.
-     * @param villager
+     * @param villager the attacking unit
      */
     @Override
     public void attackedByVillager(Villager villager) {
         this.getUnitHp().substractHP(villager.getAtk() * 1.0);
     }
 
+
     /**
      * This method is used when a
      * monk unit heals this unit.
-     * @param monk
+     * @param monk the healing unit
      */
     @Override
     public void healedByMonk(Monk monk) {
-        this.getUnitHp().addtHP(monk.getAtk() * 0.5);
+        if (!this.getUnitHp().isDead()) {
+            this.getUnitHp().addtHP(monk.getAtk() * 0.5);
+        }
+    }
+
+    /**
+     * This method is used when a castle
+     * building attacks this unit.
+     * @param castle the attacking building
+     */
+    @Override
+    public void attackedByCastle(Castle castle) {
+        this.getUnitHp().substractHP(castle.getAtk() * 1.2);
     }
 }

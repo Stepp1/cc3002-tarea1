@@ -7,8 +7,7 @@ package com.company;
  *
  * @author Stepp
  */
-
-public abstract class AbstractUnit implements Attackable,Attacker {
+public abstract class AbstractBuilding implements Attackable {
     /** Hit Points */
     private HitPoints hp;
 
@@ -16,16 +15,16 @@ public abstract class AbstractUnit implements Attackable,Attacker {
     private double atk;
 
     /**
-     * Instantiates a new abstract unit.
+     * Instantiates a new abstract building.
      *
      * @param hp sets the hit points and the hpCap
-     * @param atk sets the attack points.
      */
-    public AbstractUnit(HitPoints hp, double atk){
-        this.atk = atk;
+    public AbstractBuilding(HitPoints hp){
+        this.atk = hp.getHp();
         this.hp = hp;
-        this.hp.setHpCapUnit();
+        this.hp.setHpCapBuilding();
     }
+
 
     /**
      * Gets the hit points of a unit.
@@ -44,6 +43,4 @@ public abstract class AbstractUnit implements Attackable,Attacker {
     public double getAtk() {
         return atk;
     }
-
-
 }

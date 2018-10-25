@@ -22,7 +22,8 @@ public class Siege extends AbstractUnit{
      *  another unit or building
      * @param toAttack the unit or building to attack
      */
-    public void attack(AttackableUnits toAttack){
+    @Override
+    public void attack(Attackable toAttack){
         if(!this.getUnitHp().isDead()) {
             toAttack.attackedBySiege(this);
         }
@@ -35,7 +36,7 @@ public class Siege extends AbstractUnit{
      */
     @Override
     public void attackedByInfantry(Infantry infantry) {
-
+        this.getUnitHp().substractHP(infantry.getAtk() * 1.2);
     }
 
     /**
@@ -45,7 +46,7 @@ public class Siege extends AbstractUnit{
      */
     @Override
     public void attackedByCavalry(Cavalry cavalry) {
-
+        this.getUnitHp().substractHP(cavalry.getAtk() * 1.2);
     }
 
     /**
@@ -55,7 +56,7 @@ public class Siege extends AbstractUnit{
      */
     @Override
     public void attackedByArcher(Archer archer) {
-
+        this.getUnitHp().substractHP(archer.getAtk() * 0.8);
     }
 
     /**
@@ -65,7 +66,7 @@ public class Siege extends AbstractUnit{
      */
     @Override
     public void attackedBySiege(Siege siege) {
-
+        this.getUnitHp().substractHP(siege.getAtk() * 1.5);
     }
 
     /**
@@ -75,11 +76,27 @@ public class Siege extends AbstractUnit{
      */
     @Override
     public void attackedByVillager(Villager villager) {
-
+        this.getUnitHp().addtHP(villager.getAtk() * 0.5);
     }
 
+    /**
+     * This method is used when a
+     * monk unit tries to heal this unit.
+     * A monk cannot heal a siege unit.
+     * @param monk
+     */
     @Override
-    public void repair(Villager villager) {
+    public void healedByMonk(Monk monk) {
+        //do nothing
+    }
 
+    /**
+     * This method is used when a castle
+     * building attacks this unit.
+     * @param castle the attacking building
+     */
+    @Override
+    public void attackedByCastle(Castle castle) {
+        this.getUnitHp().substractHP(castle.getAtk() * 1.2);
     }
 }

@@ -12,9 +12,8 @@ public class Infantry extends AbstractUnit{
      * @param life the hp of this unit
      * @param atk the attack points of this unit
      */
-
     public Infantry(HitPoints life, double atk){
-        super(life,atk);
+        super(life, atk);
     }
 
     /**
@@ -22,7 +21,8 @@ public class Infantry extends AbstractUnit{
      *  another unit or building
      * @param toAttack the unit or building to attack
      */
-    public void attack(AttackableUnits toAttack){
+    @Override
+    public void attack(Attackable toAttack){
         if(!this.getUnitHp().isDead()) {
             toAttack.attackedByInfantry(this);
         }
@@ -85,6 +85,18 @@ public class Infantry extends AbstractUnit{
      */
     @Override
     public void healedByMonk(Monk monk) {
-        this.getUnitHp().addtHP(monk.getAtk() * 0.5);
+        if (this.canBeHealead()) {
+            this.getUnitHp().addtHP(monk.getAtk() * 0.5);
+        }
+    }
+
+    /**
+     * This method is used when a castle
+     * building attacks this unit.
+     * @param castle the attacking building
+     */
+    @Override
+    public void attackedByCastle(Castle castle) {
+        this.getUnitHp().substractHP(castle.getAtk() * 1.2);
     }
 }

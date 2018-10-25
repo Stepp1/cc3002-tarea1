@@ -25,7 +25,8 @@ public class Monk extends AbstractUnit{
      *  This method is used to heal another unit
      * @param toHeal or building to attack
      */
-    public void heal(Attacker toHeal){
+    @Override
+    public void attack(Attackable toHeal){
         if(!this.getUnitHp().isDead()) {
             toHeal.healedByMonk(this);
         }
@@ -34,51 +35,62 @@ public class Monk extends AbstractUnit{
     /**
      * This method is used when an
      * infantry unit attack this unit.
-     * @param infantry
+     * @param infantry the attacking unit
      */
     @Override
     public void attackedByInfantry(Infantry infantry) {
-
+        this.getUnitHp().setDead();
     }
 
     /**
      * This method is used when a
      * cavalry attacks this unit.
-     * @param cavalry
+     * @param cavalry the attacking unit
      */
     @Override
     public void attackedByCavalry(Cavalry cavalry) {
-
+        this.getUnitHp().setDead();
     }
 
     /**
      * This method is used when an
      * archer unit attack this unit.
-     * @param archer
+     * @param archer the attacking unit
      */
     @Override
     public void attackedByArcher(Archer archer) {
-
+        this.getUnitHp().setDead();
     }
 
     /**
      * This method is used when a
      * siege unit attack this unit.
-     * @param siege
+     * @param siege the attacking unit
      */
     @Override
     public void attackedBySiege(Siege siege) {
-
+        this.getUnitHp().setDead();
     }
 
     /**
-     * This method is used when a
-     * villager unit attack this unit.
-     * @param villager
+     * This method is used when a villager
+     * unit tries to attack this unit.
+     * A villager cannot attack a monk.
+     * @param villager the attacking unit
      */
     @Override
     public void attackedByVillager(Villager villager) {
+        //do nothing
+    }
 
+    /**
+     * This method is used when a castle
+     * building attacks this unit.
+     * @param castle the attacking building
+     */
+    @Override
+    public void attackedByCastle(Castle castle) {
+        this.getUnitHp().setDead();
     }
 
     /**
@@ -90,4 +102,5 @@ public class Monk extends AbstractUnit{
     public void healedByMonk(Monk monk) {
         this.getUnitHp().addtHP(monk.getAtk() * 0.5);
     }
+
 }

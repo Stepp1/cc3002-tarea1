@@ -21,7 +21,8 @@ public class Cavalry extends AbstractUnit{
      *  another unit or building
      * @param toAttack the unit or building to attack
      */
-    public void attack(AttackableUnits toAttack){
+    @Override
+    public void attack(Attackable toAttack){
         if(!this.getUnitHp().isDead()) {
             toAttack.attackedByCavalry(this);
         }
@@ -84,8 +85,19 @@ public class Cavalry extends AbstractUnit{
      */
     @Override
     public void healedByMonk(Monk monk){
-        this.getUnitHp().addtHP(monk.getAtk() * 0.5);
+        if (this.canBeHealead()) {
+            this.getUnitHp().addtHP(monk.getAtk() * 0.5);
+        }
     }
 
 
+    /**
+     * This method is used when a castle
+     * building attacks this unit.
+     * @param castle the attacking building
+     */
+    @Override
+    public void attackedByCastle(Castle castle) {
+        this.getUnitHp().substractHP(castle.getAtk() * 1.2);
+    }
 }
