@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adc39cc6-ec89-4cec-85b4-e66a6c294a5d" name="Default Changelist" comment="Building and units finished. Running last checks. Test are missing still">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="adc39cc6-ec89-4cec-85b4-e66a6c294a5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/T1_MetodologiasFinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/T1_MetodologiasFinal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AbstractBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AbstractBuilding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AbstractUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AbstractUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Archer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AttackableUnits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Barracks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Barracks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Castle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Castle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Cavalry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Cavalry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HitPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HitPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Infantry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Infantry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Monk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Siege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Siege.java" afterDir="false" />
@@ -65,13 +64,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1576" />
+          <entry key="java" value="2605" />
           <entry key="txt" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1576" />
+          <entry key="JAVA" value="2605" />
           <entry key="PLAIN_TEXT" value="92" />
         </counts>
       </usages-collector>
@@ -81,7 +80,7 @@
           <entry key="company" value="1" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="54" />
+          <entry key="java" value="79" />
           <entry key="uml" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -90,7 +89,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="54" />
+          <entry key="JAVA" value="79" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="UML" value="2" />
           <entry key="XML" value="2" />
@@ -104,44 +103,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/HitPoints.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Attacker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-864">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Infantry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="44" selection-end-column="7" />
-              <folding>
-                <element signature="e#2094#2095#0" expanded="true" />
-                <element signature="e#2154#2155#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Castle.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Monk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="33" selection-end-column="7" />
-              <folding>
-                <element signature="method#healedByMonk#0;class#Castle#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Barracks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="135">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -177,18 +151,18 @@
         <option value="$PROJECT_DIR$/src/com/company/AttackableUnits.java" />
         <option value="$PROJECT_DIR$/src/com/company/Attacker.java" />
         <option value="$PROJECT_DIR$/src/com/company/Building.java" />
-        <option value="$PROJECT_DIR$/src/com/company/HitPoints.java" />
         <option value="$PROJECT_DIR$/src/com/company/Attackable.java" />
-        <option value="$PROJECT_DIR$/src/com/company/AbstractBuilding.java" />
-        <option value="$PROJECT_DIR$/src/com/company/AbstractUnit.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Archer.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Cavalry.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Monk.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Siege.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Villager.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Infantry.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Castle.java" />
         <option value="$PROJECT_DIR$/src/com/company/Barracks.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Villager.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Siege.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Infantry.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AbstractUnit.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AbstractBuilding.java" />
+        <option value="$PROJECT_DIR$/src/com/company/HitPoints.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Castle.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Cavalry.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Archer.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Monk.java" />
       </list>
     </option>
   </component>
@@ -242,7 +216,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540434482371" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540436680254" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -301,7 +275,7 @@
       <workItem from="1540409047984" duration="2000" />
       <workItem from="1540409280528" duration="6407000" />
       <workItem from="1540422712367" duration="1000" />
-      <workItem from="1540430914218" duration="2983000" />
+      <workItem from="1540430914218" duration="4209000" />
     </task>
     <task id="LOCAL-00001" summary="Almost finished. Test are missing still">
       <created>1540431277654</created>
@@ -317,11 +291,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540433736457</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Building and units finished. Running last checks. Test are missing still">
+      <created>1540435465639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540435465639</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19406000" />
+    <option name="totallyTimeSpent" value="20632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="345" y="23" width="1335" height="971" extended-state="0" />
@@ -481,24 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractBuilding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Attackable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -506,110 +469,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/HitPoints.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Barracks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Archer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="39" />
-          <folding>
-            <element signature="e#2197#2198#0" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Cavalry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+        <state relative-caret-position="-38">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Villager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding>
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-            <element signature="e#1656#1657#0" expanded="true" />
-            <element signature="e#1722#1723#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
-            <element signature="e#1974#1975#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
-            <element signature="e#2198#2199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Attacker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Monk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="38" selection-end-column="7" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Siege.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="85" column="37" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
-          <folding>
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1846#1847#0" expanded="true" />
-            <element signature="e#1910#1911#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Barracks.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/HitPoints.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Infantry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="44" selection-end-column="7" />
-          <folding>
-            <element signature="e#2094#2095#0" expanded="true" />
-            <element signature="e#2154#2155#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Cavalry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Castle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="method#healedByMonk#0;class#Castle#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractBuilding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Archer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Attacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Monk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>

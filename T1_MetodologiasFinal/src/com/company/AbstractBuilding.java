@@ -1,9 +1,13 @@
 package com.company;
 
 /**
+ *
+ * AbstracBuilding.java
+ *
  * AbstractUnit is the abstract class for all Units.
  * This class allows the definition of the entity Unit.
- * It gives them hit points.
+ * It gives them hit points and attack points.
+ * Only the subclass Castle can attack for now.
  *
  * @author Stepp
  */

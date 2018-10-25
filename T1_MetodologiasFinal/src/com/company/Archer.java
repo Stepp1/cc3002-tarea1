@@ -1,9 +1,14 @@
 package com.company;
 
 /**
+ *
+ *  Archer.java
+ *
  *  The Archer is the class to set a new archer unit.
  *  This unit can be attacked and attack back.
- *
+ *  This class contains the attack method. It allows the unit to attack buildings or other units.
+ *  This class contains methods that produce the corresponding effect when the unit is attacked.
+ *  These methods contain the corresponding attack multiplier.
  */
 public class Archer extends AbstractUnit{
 

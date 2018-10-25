@@ -1,9 +1,14 @@
 package com.company;
 
 /**
+ *
+ * AbstractUnit.java
+ *
  * AbstractUnit is the abstract class for all Units.
  * This class allows the definition of the entity Unit.
- * It gives them hit points.
+ * It gives them hit points and attack points.
+ * All subclasses attack except for Monk that heals other units.
+ * The Villager Unit can repair Buildings.
  *
  * @author Stepp
  */

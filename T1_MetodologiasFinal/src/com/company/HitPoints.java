@@ -1,9 +1,14 @@
 package com.company;
 
 /**
+ *
+ * HitPoints.java
+ *
  * The class HitPoints is in charge of
  * managing the hp and the damage received
- * by each unit.
+ * by each unit or building.
+ * It contains methods regarding the state of an unit or building.
+ * These are getters and setters.
  *
  * @author Stepp
  */

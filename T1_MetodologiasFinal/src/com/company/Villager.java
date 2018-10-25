@@ -1,9 +1,13 @@
 package com.company;
 
 /**
+ *
+ *  Villager.java
+ *
  *  The Villager is the class to set a new villager unit.
  *  This unit can be attacked, can attack back and can also repair.
- *
+ *  This class contains methods that produce the corresponding effect
+ *  when the unit is attacked. They contain the corresponding attack multiplier.
  */
 public class Villager extends AbstractUnit{
 

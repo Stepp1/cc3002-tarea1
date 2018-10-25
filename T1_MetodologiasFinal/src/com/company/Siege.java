@@ -1,9 +1,14 @@
 package com.company;
 
 /**
+ *
+ *  Siege.java
+ *
  *  The Siege is the class to set a new siege unit.
  *  This unit can be attacked and attack back.
- *
+ *  This class contains the attack method. It allows the unit to attack buildings or other units.
+ *  This class contains methods that produce the corresponding effect
+ *  when the unit is attacked. They contain the corresponding attack multiplier.
  */
 public class Siege extends AbstractUnit{
 

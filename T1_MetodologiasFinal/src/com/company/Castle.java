@@ -2,9 +2,15 @@ package com.company;
 
 
 /**
+ *
+ *  Castle.java
+ *
  *  The Castle is the class to set a new castle building.
  *  This building can be attacked and attack back.
  *  It can be repaired.
+ *  This class contains the attack method. It allows the unit to attack buildings or other units.
+ *  This class contains methods that produce the corresponding effect when the building is attacked.
+ *  These methods contain the corresponding attack multiplier.
  */
 
 public class Castle extends AbstractBuilding implements Attacker{

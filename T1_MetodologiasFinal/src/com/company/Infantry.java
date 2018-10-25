@@ -1,9 +1,14 @@
 package com.company;
 
 /**
+ *
+ *  Infantry.java
+ *
  *  The Infantry is the class to set a new infantry unit.
  *  This unit can be attacked and attack back.
- *
+ *  This class contains the attack method. It allows the unit to attack buildings or other units.
+ *  This class contains methods that produce the corresponding effect when the unit is attacked.
+ *  These methods contain the corresponding attack multiplier.
  */
 public class Infantry extends AbstractUnit{
 

@@ -1,8 +1,14 @@
 package com.company;
 /**
+ *
+ *  Monk.java
+ *
  *  The Monk is the class to set a new monk unit.
  *  This unit can be attacked and can heal other units.
- *
+ *  This class contains the attack method. It allows the unit to attack buildings or other units.
+ *  This class contains methods that produce the corresponding effect when the unit is attacked.
+ *  When a monk is attacked it automatically dies.
+
  */
 public class Monk extends AbstractUnit{
 
