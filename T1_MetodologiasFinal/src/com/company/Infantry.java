@@ -17,7 +17,7 @@ public class Infantry extends AbstractUnit{
      * @param life the hp of this unit
      * @param atk the attack points of this unit
      */
-    public Infantry(HitPoints life, double atk){
+    public Infantry(double life, double atk){
         super(life, atk);
     }
 

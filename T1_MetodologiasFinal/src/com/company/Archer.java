@@ -18,7 +18,7 @@ public class Archer extends AbstractUnit{
      * @param atk the attack points of this unit
      */
 
-    public Archer(HitPoints life, double atk){
+    public Archer(double life, double atk){
         super(life,atk);
     }
 

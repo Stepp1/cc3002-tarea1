@@ -18,7 +18,7 @@ public class Siege extends AbstractUnit{
      * @param atk the attack points of this unit
      */
 
-    public Siege(HitPoints life, double atk){
+    public Siege(double life, double atk){
         super(life,atk);
     }
 

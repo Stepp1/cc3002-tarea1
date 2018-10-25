@@ -23,7 +23,7 @@ public class Monk extends AbstractUnit{
      * @param atk the attack points of this unit, these are used for healing purposes.
      */
 
-    public Monk(HitPoints life, double atk){
+    public Monk(double life, double atk){
         super(life,atk);
     }
 

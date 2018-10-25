@@ -26,9 +26,9 @@ public abstract class AbstractUnit implements Attackable,Attacker {
      * @param hp sets the hit points and the hpCap
      * @param atk sets the attack points.
      */
-    public AbstractUnit(HitPoints hp, double atk){
+    public AbstractUnit(double hp, double atk){
         this.atk = atk;
-        this.hp = hp;
+        this.hp = new HitPoints(hp);
         this.hp.setHpCapUnit();
     }
 

@@ -23,9 +23,9 @@ public abstract class AbstractBuilding implements Attackable {
      *
      * @param hp sets the hit points and the hpCap
      */
-    public AbstractBuilding(HitPoints hp){
-        this.atk = hp.getHp();
-        this.hp = hp;
+    public AbstractBuilding(double hp){
+        this.atk = hp;
+        this.hp = new HitPoints(hp);
         this.hp.setHpCapBuilding();
     }
 

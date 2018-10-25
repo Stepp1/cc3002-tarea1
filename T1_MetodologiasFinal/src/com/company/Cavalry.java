@@ -17,7 +17,7 @@ public class Cavalry extends AbstractUnit{
      * @param atk the attack points of this unit
      */
 
-    public Cavalry(HitPoints life, double atk){
+    public Cavalry(double life, double atk){
         super(life,atk);
     }
 

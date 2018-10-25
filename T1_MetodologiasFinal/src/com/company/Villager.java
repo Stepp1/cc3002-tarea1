@@ -17,7 +17,7 @@ public class Villager extends AbstractUnit{
      * @param atk the attack points of this unit
      */
 
-    public Villager(HitPoints life, double atk){
+    public Villager(double life, double atk){
         super(life,atk);
     }
 

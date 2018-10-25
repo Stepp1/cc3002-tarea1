@@ -21,7 +21,7 @@ public class Castle extends AbstractBuilding implements Attacker{
      * @param life the hp of this unit
      */
 
-    public Castle(HitPoints life){
+    public Castle(double life){
         super(life);
     }
 
