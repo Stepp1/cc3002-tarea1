@@ -96,11 +96,12 @@ public class Monk extends AbstractUnit{
     /**
      * This method is used when a
      * monk unit heals this unit.
-     * @param monk
+     * @param monk the healing unit
      */
     @Override
     public void healedByMonk(Monk monk) {
         this.getUnitHp().addtHP(monk.getAtk() * 0.5);
+
     }
 
 }

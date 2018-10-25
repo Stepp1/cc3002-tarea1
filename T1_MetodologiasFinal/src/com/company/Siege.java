@@ -32,7 +32,7 @@ public class Siege extends AbstractUnit{
     /**
      * This method is used when an
      * infantry unit attack this unit.
-     * @param infantry
+     * @param infantry the attacking unit
      */
     @Override
     public void attackedByInfantry(Infantry infantry) {
@@ -42,7 +42,7 @@ public class Siege extends AbstractUnit{
     /**
      * This method is used when a
      * cavalry attacks this unit.
-     * @param cavalry
+     * @param cavalry the attacking unit
      */
     @Override
     public void attackedByCavalry(Cavalry cavalry) {
@@ -52,7 +52,7 @@ public class Siege extends AbstractUnit{
     /**
      * This method is used when an
      * archer unit attack this unit.
-     * @param archer
+     * @param archer the attacking unit
      */
     @Override
     public void attackedByArcher(Archer archer) {
@@ -62,7 +62,7 @@ public class Siege extends AbstractUnit{
     /**
      * This method is used when a
      * siege unit attack this unit.
-     * @param siege
+     * @param siege the attacking unit
      */
     @Override
     public void attackedBySiege(Siege siege) {
@@ -72,7 +72,7 @@ public class Siege extends AbstractUnit{
     /**
      * This method is used when a
      * villager unit attack this unit.
-     * @param villager
+     * @param villager the attacking unit
      */
     @Override
     public void attackedByVillager(Villager villager) {
@@ -83,7 +83,7 @@ public class Siege extends AbstractUnit{
      * This method is used when a
      * monk unit tries to heal this unit.
      * A monk cannot heal a siege unit.
-     * @param monk
+     * @param monk the attacking unit
      */
     @Override
     public void healedByMonk(Monk monk) {

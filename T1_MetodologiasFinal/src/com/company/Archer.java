@@ -87,9 +87,7 @@ public class Archer extends AbstractUnit{
      */
     @Override
     public void healedByMonk(Monk monk) {
-        if (!this.getUnitHp().isDead()) {
-            this.getUnitHp().addtHP(monk.getAtk() * 0.5);
-        }
+        this.getUnitHp().addtHP(monk.getAtk() * 0.5);
     }
 
     /**

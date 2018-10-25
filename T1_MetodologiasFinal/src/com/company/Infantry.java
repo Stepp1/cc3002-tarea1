@@ -41,7 +41,7 @@ public class Infantry extends AbstractUnit{
     /**
      * This method is used when a
      * cavalry attacks this unit.
-     * @param cavalry
+     * @param cavalry the attacking unit
      */
     @Override
     public void attackedByCavalry(Cavalry cavalry) {
@@ -51,7 +51,7 @@ public class Infantry extends AbstractUnit{
     /**
      * This method is used when an
      * archer unit attack this unit.
-     * @param archer
+     * @param archer the attacking unit
      */
     @Override
     public void attackedByArcher(Archer archer) {
@@ -61,7 +61,7 @@ public class Infantry extends AbstractUnit{
     /**
      * This method is used when a
      * siege unit attack this unit.
-     * @param siege
+     * @param siege the attacking unit
      */
     @Override
     public void attackedBySiege(Siege siege) {
@@ -71,7 +71,7 @@ public class Infantry extends AbstractUnit{
     /**
      * This method is used when a
      * villager unit attack this unit.
-     * @param villager
+     * @param villager the attacking unit
      */
     @Override
     public void attackedByVillager(Villager villager) {
@@ -81,13 +81,11 @@ public class Infantry extends AbstractUnit{
     /**
      * This method is used when a
      * monk unit heals this unit.
-     * @param monk
+     * @param monk the healing unit
      */
     @Override
     public void healedByMonk(Monk monk) {
-        if (this.canBeHealead()) {
-            this.getUnitHp().addtHP(monk.getAtk() * 0.5);
-        }
+        this.getUnitHp().addtHP(monk.getAtk() * 0.5);
     }
 
     /**
