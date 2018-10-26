@@ -50,7 +50,7 @@ public class Infantry extends AbstractUnit{
      */
     @Override
     public void attackedByCavalry(Cavalry cavalry) {
-        this.getUnitHp().substractHP(cavalry.getAtk() * 1.2);
+        this.getUnitHp().substractHP(cavalry.getAtk() * 1.0);
     }
 
     /**
@@ -60,7 +60,7 @@ public class Infantry extends AbstractUnit{
      */
     @Override
     public void attackedByArcher(Archer archer) {
-        this.getUnitHp().substractHP(archer.getAtk() * 1.0);
+        this.getUnitHp().substractHP(archer.getAtk() * 1.2);
     }
 
     /**

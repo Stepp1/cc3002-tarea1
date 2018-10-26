@@ -7,7 +7,7 @@ package com.company;
  * AbstractUnit is the abstract class for all Units.
  * This class allows the definition of the entity Unit.
  * It gives them hit points and attack points.
- * Only the subclass Castle can attack for now.
+ * Only the subclass Castle can attack for now. Their attack points correspond to 5% of their life
  *
  * @author Stepp
  */
@@ -24,7 +24,7 @@ public abstract class AbstractBuilding implements Attackable {
      * @param hp sets the hit points and the hpCap
      */
     public AbstractBuilding(double hp){
-        this.atk = hp;
+        this.atk = hp * 0.05;
         this.hp = new HitPoints(hp);
         this.hp.setHpCapBuilding();
     }
@@ -35,7 +35,7 @@ public abstract class AbstractBuilding implements Attackable {
      *
      * @return the hit points
      */
-    public HitPoints getUnitHp(){
+    public HitPoints getBuildingHp(){
         return hp;
     }
 

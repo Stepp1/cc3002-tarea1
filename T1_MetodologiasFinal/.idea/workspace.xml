@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adc39cc6-ec89-4cec-85b4-e66a6c294a5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/com/company/ArcherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/company/BarracksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/company/CastleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/company/CavalryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/company/InfantryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/company/MonkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/company/SiegeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/company/VillagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/AbstractBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AbstractBuilding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AbstractUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AbstractUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Archer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Barracks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Barracks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Castle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Castle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Cavalry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Cavalry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HitPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HitPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Infantry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Infantry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Monk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Siege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Siege.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Villager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Villager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/company/ArcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/ArcherTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +23,39 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/T1_MetodologiasFinal$All_in_T1_MetodologiasFinal.ic" NAME="All in T1_MetodologiasFinal Coverage Results" MODIFIED="1540517718075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/T1_MetodologiasFinal$com_company_in_T1_MetodologiasFinal.ic" NAME="com.company in T1_MetodologiasFinal Coverage Results" MODIFIED="1540509453475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/T1_MetodologiasFinal$SiegeTest_attack.ic" NAME="SiegeTest.attack Coverage Results" MODIFIED="1540497012465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/T1_MetodologiasFinal$CavalryTest.ic" NAME="CavalryTest Coverage Results" MODIFIED="1540510533033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/T1_MetodologiasFinal$ArcherTest.ic" NAME="ArcherTest Coverage Results" MODIFIED="1540507014922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/T1_MetodologiasFinal$InfantryTest_healedByMonk.ic" NAME="InfantryTest.healedByMonk Coverage Results" MODIFIED="1540508017465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/T1_MetodologiasFinal$InfantryTest.ic" NAME="InfantryTest Coverage Results" MODIFIED="1540508028769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/T1_MetodologiasFinal$ArcherTest_attackedByCastle.ic" NAME="ArcherTest.attackedByCastle Coverage Results" MODIFIED="1540498567711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/T1_MetodologiasFinal$SiegeTest_attackedBySiege.ic" NAME="SiegeTest.attackedBySiege Coverage Results" MODIFIED="1540506275195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/T1_MetodologiasFinal$CastleTest.ic" NAME="CastleTest Coverage Results" MODIFIED="1540516439940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="81" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1104911770">
@@ -56,23 +91,25 @@
     <session id="1970353661">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4877" />
-          <entry key="txt" value="197" />
+          <entry key="java" value="7755" />
+          <entry key="txt" value="238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4877" />
-          <entry key="PLAIN_TEXT" value="197" />
+          <entry key="JAVA" value="7755" />
+          <entry key="PLAIN_TEXT" value="238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,7 +118,7 @@
           <entry key="company" value="1" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="111" />
+          <entry key="java" value="150" />
           <entry key="uml" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -90,7 +127,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="111" />
+          <entry key="JAVA" value="150" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="UML" value="2" />
           <entry key="XML" value="2" />
@@ -106,47 +143,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/AbstractUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Archer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-613">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Siege.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/HitPoints.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-163">
-              <caret line="86" column="27" lean-forward="true" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
+            <state relative-caret-position="360">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/com/company/ArcherTest.java">
+        <entry file="file://$PROJECT_DIR$/test/com/company/BarracksTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="338">
+              <caret line="79" column="58" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/company/CastleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="79" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Castle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="590">
+              <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#healedByMonk#0;class#Castle#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Barracks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AbstractBuilding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -166,10 +212,23 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>setTo</find>
+      <find>set</find>
+      <find>setHpCapUnit</find>
+      <find>getUnit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/test/com/company/CavalryTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test/com/company/MonkTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test/com/company/VillagerTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test/com/company/CastleTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test/com/company/SiegeTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test/com/company/BarracksTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test/com/company/ArcherTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test/com/company/InfantryTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -181,20 +240,27 @@
         <option value="$PROJECT_DIR$/src/com/cc3002/Cavalry.java" />
         <option value="$PROJECT_DIR$/src/com/company/AttackableUnits.java" />
         <option value="$PROJECT_DIR$/src/com/company/Building.java" />
-        <option value="$PROJECT_DIR$/src/com/company/HitPoints.java" />
         <option value="$PROJECT_DIR$/src/com/company/Attacker.java" />
         <option value="$PROJECT_DIR$/src/com/company/Attackable.java" />
         <option value="$PROJECT_DIR$/src/com/company/AbstractUnit.java" />
         <option value="$PROJECT_DIR$/src/com/company/Archer.java" />
-        <option value="$PROJECT_DIR$/src/com/company/AbstractBuilding.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Barracks.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Castle.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Cavalry.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Infantry.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Monk.java" />
         <option value="$PROJECT_DIR$/src/com/company/Villager.java" />
         <option value="$PROJECT_DIR$/src/com/company/Siege.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Infantry.java" />
         <option value="$PROJECT_DIR$/test/com/company/ArcherTest.java" />
+        <option value="$PROJECT_DIR$/test/com/company/InfantryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Monk.java" />
+        <option value="$PROJECT_DIR$/test/com/company/MonkTest.java" />
+        <option value="$PROJECT_DIR$/test/com/company/VillagerTest.java" />
+        <option value="$PROJECT_DIR$/test/com/company/CavalryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Cavalry.java" />
+        <option value="$PROJECT_DIR$/src/com/company/HitPoints.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AbstractBuilding.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Castle.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Barracks.java" />
+        <option value="$PROJECT_DIR$/test/com/company/CastleTest.java" />
+        <option value="$PROJECT_DIR$/test/com/company/SiegeTest.java" />
+        <option value="$PROJECT_DIR$/test/com/company/BarracksTest.java" />
       </list>
     </option>
   </component>
@@ -205,10 +271,26 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="648" />
     <option name="y" value="23" />
-    <option name="width" value="1032" />
-    <option name="height" value="971" />
+    <option name="width" value="1680" />
+    <option name="height" value="969" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -216,7 +298,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,10 +321,17 @@
               <item name="T1_MetodologiasFinal" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="T1_MetodologiasFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="T1_MetodologiasFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -253,7 +341,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540440129844" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540517763860" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -286,7 +374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArcherTest.healedByMonk">
+  <component name="RunManager" selected="JUnit.All in T1_MetodologiasFinal">
     <configuration name="T1_Metodologias" type="Application" factoryName="Application">
       <module name="T1_MetodologiasFinal" />
       <RunnerSettings RunnerId="Run" />
@@ -296,23 +384,15 @@
         <option name="MakeNoErrorCheck" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArcherTest.attackedByArcher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in T1_MetodologiasFinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T1_MetodologiasFinal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.ArcherTest" />
-      <option name="METHOD_NAME" value="attackedByArcher" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArcherTest.attackedByCastle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BarracksTest.attackedByCastle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T1_MetodologiasFinal" />
       <extension name="coverage">
         <pattern>
@@ -321,14 +401,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.ArcherTest" />
+      <option name="MAIN_CLASS_NAME" value="com.company.BarracksTest" />
       <option name="METHOD_NAME" value="attackedByCastle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArcherTest.attackedBySiege" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BarracksTest.attackedByVillager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T1_MetodologiasFinal" />
       <extension name="coverage">
         <pattern>
@@ -337,30 +417,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.ArcherTest" />
-      <option name="METHOD_NAME" value="attackedBySiege" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArcherTest.attackedByVillager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="T1_MetodologiasFinal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.ArcherTest" />
+      <option name="MAIN_CLASS_NAME" value="com.company.BarracksTest" />
       <option name="METHOD_NAME" value="attackedByVillager" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArcherTest.healedByMonk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CastleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T1_MetodologiasFinal" />
       <extension name="coverage">
         <pattern>
@@ -369,8 +433,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.ArcherTest" />
-      <option name="METHOD_NAME" value="healedByMonk" />
+      <option name="MAIN_CLASS_NAME" value="com.company.CastleTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CastleTest.attackedByVillager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T1_MetodologiasFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.CastleTest" />
+      <option name="METHOD_NAME" value="attackedByVillager" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -378,19 +456,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.T1_Metodologias" />
-      <item itemvalue="JUnit.ArcherTest.attackedByArcher" />
-      <item itemvalue="JUnit.ArcherTest.attackedBySiege" />
-      <item itemvalue="JUnit.ArcherTest.attackedByVillager" />
-      <item itemvalue="JUnit.ArcherTest.attackedByCastle" />
-      <item itemvalue="JUnit.ArcherTest.healedByMonk" />
+      <item itemvalue="JUnit.All in T1_MetodologiasFinal" />
+      <item itemvalue="JUnit.CastleTest.attackedByVillager" />
+      <item itemvalue="JUnit.CastleTest" />
+      <item itemvalue="JUnit.BarracksTest.attackedByVillager" />
+      <item itemvalue="JUnit.BarracksTest.attackedByCastle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArcherTest.healedByMonk" />
-        <item itemvalue="JUnit.ArcherTest.attackedByCastle" />
-        <item itemvalue="JUnit.ArcherTest.attackedByVillager" />
-        <item itemvalue="JUnit.ArcherTest.attackedBySiege" />
-        <item itemvalue="JUnit.ArcherTest.attackedByArcher" />
+        <item itemvalue="JUnit.All in T1_MetodologiasFinal" />
+        <item itemvalue="JUnit.BarracksTest.attackedByCastle" />
+        <item itemvalue="JUnit.BarracksTest.attackedByVillager" />
+        <item itemvalue="JUnit.CastleTest" />
+        <item itemvalue="JUnit.CastleTest.attackedByVillager" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +488,9 @@
       <workItem from="1540409047984" duration="2000" />
       <workItem from="1540409280528" duration="6407000" />
       <workItem from="1540422712367" duration="1000" />
-      <workItem from="1540430914218" duration="7633000" />
+      <workItem from="1540430914218" duration="7748000" />
+      <workItem from="1540489363247" duration="388000" />
+      <workItem from="1540493643521" duration="10988000" />
     </task>
     <task id="LOCAL-00001" summary="Almost finished. Test are missing still">
       <created>1540431277654</created>
@@ -454,67 +534,74 @@
       <option name="project" value="LOCAL" />
       <updated>1540438004082</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Javadocs are finished. Begun test. Archer class passed tests.">
+      <created>1540440240427</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540440240427</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArcherTest_attackedBySiege - 2018.10.25 at 00h 55m 03s.xml">
-      <configuration name="ArcherTest.attackedBySiege" configurationId="JUnit" />
+    <history-entry file="CastleTest - 2018.10.25 at 22h 11m 37s.xml">
+      <configuration name="CastleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArcherTest_attackedBySiege - 2018.10.25 at 00h 55m 09s.xml">
-      <configuration name="ArcherTest.attackedBySiege" configurationId="JUnit" />
+    <history-entry file="MonkTest_healedByMonk - 2018.10.25 at 22h 11m 44s.xml">
+      <configuration name="MonkTest.healedByMonk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArcherTest_attackedBySiege - 2018.10.25 at 00h 55m 45s.xml">
-      <configuration name="ArcherTest.attackedBySiege" configurationId="JUnit" />
+    <history-entry file="All_in_T1_MetodologiasFinal - 2018.10.25 at 22h 11m 55s.xml">
+      <configuration name="All in T1_MetodologiasFinal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArcherTest_attackedByVillager - 2018.10.25 at 00h 55m 49s.xml">
-      <configuration name="ArcherTest.attackedByVillager" configurationId="JUnit" />
+    <history-entry file="CastleTest_attackedByCastle - 2018.10.25 at 22h 13m 18s.xml">
+      <configuration name="CastleTest.attackedByCastle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArcherTest_attackedByCastle - 2018.10.25 at 00h 56m 37s.xml">
-      <configuration name="ArcherTest.attackedByCastle" configurationId="JUnit" />
+    <history-entry file="CastleTest - 2018.10.25 at 22h 14m 01s.xml">
+      <configuration name="CastleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArcherTest_attackedByCastle - 2018.10.25 at 00h 57m 15s.xml">
-      <configuration name="ArcherTest.attackedByCastle" configurationId="JUnit" />
+    <history-entry file="CastleTest - 2018.10.25 at 22h 25m 45s.xml">
+      <configuration name="CastleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArcherTest_healedByMonk - 2018.10.25 at 00h 58m 25s.xml">
-      <configuration name="ArcherTest.healedByMonk" configurationId="JUnit" />
+    <history-entry file="BarracksTest_attackedByVillager - 2018.10.25 at 22h 28m 22s.xml">
+      <configuration name="BarracksTest.attackedByVillager" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArcherTest_healedByMonk - 2018.10.25 at 00h 59m 02s.xml">
-      <configuration name="ArcherTest.healedByMonk" configurationId="JUnit" />
+    <history-entry file="BarracksTest_attackedByVillager - 2018.10.25 at 22h 30m 47s.xml">
+      <configuration name="BarracksTest.attackedByVillager" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArcherTest_healedByMonk - 2018.10.25 at 00h 59m 44s.xml">
-      <configuration name="ArcherTest.healedByMonk" configurationId="JUnit" />
+    <history-entry file="All_in_T1_MetodologiasFinal - 2018.10.25 at 22h 32m 34s.xml">
+      <configuration name="All in T1_MetodologiasFinal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArcherTest_healedByMonk - 2018.10.25 at 01h 01m 25s.xml">
-      <configuration name="ArcherTest.healedByMonk" configurationId="JUnit" />
+    <history-entry file="BarracksTest_attackedByCastle - 2018.10.25 at 22h 33m 23s.xml">
+      <configuration name="BarracksTest.attackedByCastle" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24056000" />
+    <option name="totallyTimeSpent" value="35547000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="648" y="23" width="1032" height="971" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="969" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50102043" side_tool="true" weight="0.24969475" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4989796" weight="0.21423048" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4989796" visible="true" weight="0.21367522" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32992035" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.3993174" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3287827" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3295325" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32155073" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3990878" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32839224" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.20512821" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -531,29 +618,30 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50102043" side_tool="true" weight="0.24969475" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4989796" visible="true" weight="0.21423048" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4989796" visible="true" weight="0.21367522" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3295325" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32155073" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3990878" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3287827" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.20512821" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +657,8 @@
     <MESSAGE value="javadocs are finished. Test are missing still" />
     <MESSAGE value="Javadocs are finished. Reduced the no. of warnings. Test are missing still" />
     <MESSAGE value="Javadocs are finished. Reduced the no. of warnings. Test are missing still missing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Javadocs are finished. Reduced the no. of warnings. Test are missing still missing" />
+    <MESSAGE value="Javadocs are finished. Begun test. Archer class passed tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Javadocs are finished. Begun test. Archer class passed tests." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../T1_Metodologias/src/main/Archer.java" />
@@ -586,20 +675,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/cc3002/AbstractUnit.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/AttackableUnits.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Building.java" />
-    <entry file="file:///private/var/folders/89/44pgr07n2nxcl0c229ws3_rm0000gr/T/modules.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MODULES</ID>
-          <OriginalElement />
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
-          <SelectedNodes />
-          <Categories />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///private/var/folders/89/44pgr07n2nxcl0c229ws3_rm0000gr/T/modules.uml" />
     <entry file="file://$PROJECT_DIR$/T1_MetodologiasFinal.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -612,13 +688,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/description.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PreEntrega">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PreEntrega" />
     <entry file="uml://JAVA/com.company">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -641,29 +711,15 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.3937347773681475" x="1234.2086104652446" y="1008.4692219145891" />
+          <settings layout="Hierarchic Group" zoom="0.3937347773681475" x="1234.0" y="1008.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Methods</Category>
-            <Category>Constructors</Category>
             <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>public</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Barracks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractBuilding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -681,79 +737,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Castle.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Archer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="-231">
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Siege.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/ArcherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="71" selection-start-line="71" selection-end-line="83" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Infantry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/InfantryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="89" column="96" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="89" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Monk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-467">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/MonkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="72" column="63" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Villager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/VillagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="87" column="57" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/HitPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
-            <element signature="method#healedByMonk#0;class#Castle#0" />
+            <element signature="e#1860#1861#0" expanded="true" />
+            <element signature="e#1890#1891#0" expanded="true" />
+            <element signature="e#2854#2855#0" expanded="true" />
+            <element signature="e#2888#2889#0" expanded="true" />
+            <element signature="e#3024#3025#0" expanded="true" />
+            <element signature="e#3066#3067#0" expanded="true" />
+            <element signature="e#3187#3188#0" expanded="true" />
+            <element signature="e#3224#3225#0" expanded="true" />
+            <element signature="e#3344#3345#0" expanded="true" />
+            <element signature="e#3389#3390#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Cavalry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="705">
+          <caret line="52" column="59" lean-forward="true" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Infantry.java">
+    <entry file="file://$PROJECT_DIR$/test/com/company/CavalryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Monk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Villager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="75">
+          <caret line="8" selection-start-line="8" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/AbstractUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="360">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Siege.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractBuilding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+        <state relative-caret-position="555">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Archer.java">
+    <entry file="file://$PROJECT_DIR$/test/com/company/SiegeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-613">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="65">
+          <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/HitPoints.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Castle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="86" column="27" lean-forward="true" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/company/ArcherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="590">
+          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#healedByMonk#0;class#Castle#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/CastleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="79" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Barracks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/BarracksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="79" column="58" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
         </state>
       </provider>
     </entry>

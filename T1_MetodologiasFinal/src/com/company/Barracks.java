@@ -1,8 +1,14 @@
 package com.company;
+
 /**
+ *
+ *  Barracks.java
+ *
  *  The Barracks is the class to set a new Barracks building.
- *  This building cannot be attack, neither attack back.
+ *  This building cannot attack.
  *  It can be repaired.
+ *  This class contains methods that produce the corresponding effect when the building is attacked.
+ *  These methods contain the corresponding attack multiplier.
  */
 
 public class Barracks extends AbstractBuilding{
@@ -22,7 +28,7 @@ public class Barracks extends AbstractBuilding{
      */
     @Override
     public void attackedByInfantry(Infantry infantry) {
-        this.getUnitHp().substractHP(infantry.getAtk() * 0.7);
+        this.getBuildingHp().substractHP(infantry.getAtk() * 0.7);
     }
     /**
      * This method is used when a
@@ -31,7 +37,7 @@ public class Barracks extends AbstractBuilding{
      */
     @Override
     public void attackedByCavalry(Cavalry cavalry) {
-        this.getUnitHp().substractHP(cavalry.getAtk() * 0.7);
+        this.getBuildingHp().substractHP(cavalry.getAtk() * 0.7);
     }
 
     /**
@@ -41,7 +47,7 @@ public class Barracks extends AbstractBuilding{
      */
     @Override
     public void attackedByArcher(Archer archer) {
-        this.getUnitHp().substractHP(archer.getAtk() * 0.7);
+        this.getBuildingHp().substractHP(archer.getAtk() * 0.7);
     }
 
     /**
@@ -51,7 +57,7 @@ public class Barracks extends AbstractBuilding{
      */
     @Override
     public void attackedBySiege(Siege siege) {
-        this.getUnitHp().substractHP(siege.getAtk() * 2.0);
+        this.getBuildingHp().substractHP(siege.getAtk() * 2.0);
     }
 
     /**
@@ -61,7 +67,7 @@ public class Barracks extends AbstractBuilding{
      */
     @Override
     public void attackedByVillager(Villager villager) {
-        this.getUnitHp().addtHP(villager.getAtk() * 0.7);
+        this.getBuildingHp().addtHP(villager.getAtk() * 0.7);
     }
 
     /**
@@ -71,7 +77,7 @@ public class Barracks extends AbstractBuilding{
      */
     @Override
     public void attackedByCastle(Castle castle) {
-        this.getUnitHp().substractHP(castle.getAtk() * 0.7);
+        this.getBuildingHp().substractHP(castle.getAtk() * 0.7);
     }
 
     /**

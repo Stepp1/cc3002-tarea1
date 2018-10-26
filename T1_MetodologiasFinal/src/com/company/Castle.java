@@ -1,6 +1,5 @@
 package com.company;
 
-
 /**
  *
  *  Castle.java
@@ -8,6 +7,7 @@ package com.company;
  *  The Castle is the class to set a new castle building.
  *  This building can be attacked and attack back.
  *  It can be repaired.
+ *
  *  This class contains the attack method. It allows the unit to attack buildings or other units.
  *  This class contains methods that produce the corresponding effect when the building is attacked.
  *  These methods contain the corresponding attack multiplier.
@@ -28,7 +28,7 @@ public class Castle extends AbstractBuilding implements Attacker{
     
     @Override
     public void attack(Attackable entity) {
-        if(!this.getUnitHp().isDead()) {
+        if(!this.getBuildingHp().isDead()) {
             entity.attackedByCastle(this);
         }
     }
@@ -40,7 +40,7 @@ public class Castle extends AbstractBuilding implements Attacker{
      */
     @Override
     public void attackedByInfantry(Infantry infantry) {
-        this.getUnitHp().substractHP(infantry.getAtk() * 0.3);
+        this.getBuildingHp().substractHP(infantry.getAtk() * 0.3);
     }
 
     /**
@@ -50,7 +50,7 @@ public class Castle extends AbstractBuilding implements Attacker{
      */
     @Override
     public void attackedByCavalry(Cavalry cavalry) {
-        this.getUnitHp().substractHP(cavalry.getAtk() * 0.1);        
+        this.getBuildingHp().substractHP(cavalry.getAtk() * 0.3);
     }
 
     /**
@@ -60,7 +60,7 @@ public class Castle extends AbstractBuilding implements Attacker{
      */
     @Override
     public void attackedByArcher(Archer archer) {
-        this.getUnitHp().substractHP(archer.getAtk() * 0.3);
+        this.getBuildingHp().substractHP(archer.getAtk() * 0.1);
     }
 
     /**
@@ -70,7 +70,7 @@ public class Castle extends AbstractBuilding implements Attacker{
      */
     @Override
     public void attackedBySiege(Siege siege) {
-        this.getUnitHp().substractHP(siege.getAtk() * 2.0);
+        this.getBuildingHp().substractHP(siege.getAtk() * 2.0);
     }
 
     /**
@@ -80,7 +80,7 @@ public class Castle extends AbstractBuilding implements Attacker{
      */
     @Override
     public void attackedByVillager(Villager villager) {
-        this.getUnitHp().addtHP(villager.getAtk() * 0.3);
+        this.getBuildingHp().addBuildingHP(villager.getAtk() * 0.3);
     }
 
     /**
@@ -90,7 +90,7 @@ public class Castle extends AbstractBuilding implements Attacker{
      */
     @Override
     public void attackedByCastle(Castle castle) {
-        this.getUnitHp().substractHP(castle.getAtk() * 0.1);
+        this.getBuildingHp().substractHP(castle.getAtk() * 0.1);
     }
 
     /**
