@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adc39cc6-ec89-4cec-85b4-e66a6c294a5d" name="Default Changelist" comment="" />
+    <list default="true" id="adc39cc6-ec89-4cec-85b4-e66a6c294a5d" name="Default Changelist" comment="Tests finished. Added diagrams." />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,13 +88,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="7755" />
-          <entry key="txt" value="238" />
+          <entry key="txt" value="272" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="7755" />
-          <entry key="PLAIN_TEXT" value="238" />
+          <entry key="PLAIN_TEXT" value="272" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -147,7 +147,7 @@
                 <node x="695.25" y="178.0">com.company.Siege</node>
                 <node x="796.25" y="178.0">com.company.Monk</node>
                 <node x="122.25" y="178.0">com.company.Barracks</node>
-                <node x="295.3937240354043" y="87.56416028695824">com.company.HitPoints</node>
+                <node x="0.0" y="252.0">com.company.HitPoints</node>
                 <node x="0.0" y="0.0">com.company.Attacker</node>
                 <node x="244.25" y="178.0">com.company.Archer</node>
                 <node x="343.3108974358974" y="0.0">com.company.Attackable</node>
@@ -227,8 +227,10 @@
                   <point x="31.75" y="14.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0155936825659966" x="425.69137546950816" y="386.65869342207327" />
-              <SelectedNodes />
+              <settings layout="Hierarchic Group" zoom="0.8859508157348714" x="475.6481858141767" y="396.7593440731972" />
+              <SelectedNodes>
+                <node>com.company.HitPoints</node>
+              </SelectedNodes>
               <Categories />
               <SCOPE>Production</SCOPE>
               <VISIBILITY>public</VISIBILITY>
@@ -363,7 +365,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540519246721" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540519274316" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -563,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540440240427</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Tests finished. Added diagrams.">
+      <created>1540519272047</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1540519272047</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -599,11 +608,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36015000" />
+    <option name="totallyTimeSpent" value="36537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="969" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -681,7 +689,8 @@
     <MESSAGE value="Javadocs are finished. Reduced the no. of warnings. Test are missing still" />
     <MESSAGE value="Javadocs are finished. Reduced the no. of warnings. Test are missing still missing" />
     <MESSAGE value="Javadocs are finished. Begun test. Archer class passed tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Javadocs are finished. Begun test. Archer class passed tests." />
+    <MESSAGE value="Tests finished. Added diagrams." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests finished. Added diagrams." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../T1_Metodologias/src/main/Archer.java" />
@@ -935,7 +944,7 @@
             <node x="695.25" y="178.0">com.company.Siege</node>
             <node x="796.25" y="178.0">com.company.Monk</node>
             <node x="122.25" y="178.0">com.company.Barracks</node>
-            <node x="295.3937240354043" y="87.56416028695824">com.company.HitPoints</node>
+            <node x="0.0" y="252.0">com.company.HitPoints</node>
             <node x="0.0" y="0.0">com.company.Attacker</node>
             <node x="244.25" y="178.0">com.company.Archer</node>
             <node x="343.3108974358974" y="0.0">com.company.Attackable</node>
@@ -1015,8 +1024,10 @@
               <point x="31.75" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0155936825659966" x="425.69137546950816" y="386.65869342207327" />
-          <SelectedNodes />
+          <settings layout="Hierarchic Group" zoom="0.8859508157348714" x="475.6481858141767" y="396.7593440731972" />
+          <SelectedNodes>
+            <node>com.company.HitPoints</node>
+          </SelectedNodes>
           <Categories />
           <SCOPE>Production</SCOPE>
           <VISIBILITY>public</VISIBILITY>
